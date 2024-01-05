@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 100vh;
+    font-family:sans-serif;
+}
+.container{
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+    background-color: #f0f0f0;
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    
+    
+}
+.container-title {
+    text-align: center;
+    background-color: plum;
+    padding: 10px;
+    color: #fff;
+    border-radius: 0.1rem ;
+}
+.container-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin: 10px ;
+}
+.container-input input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 0.2rem;text-align: center;
+    font-weight: 500;
+
+}
+.container-input button{
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    background-color:#fff ;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    
+}
+.container-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    overflow-y: scroll;
+}
+.list-content{
+    text-align: justify;
+    width: 250px;
+    padding: 10px;
+    font-weight: 400;
+    margin: 8px 5px ;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
